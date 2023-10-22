@@ -2,15 +2,19 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 import styles from "./Header.module.css";
-import { ReactComponent as ReactLogo } from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 
 function Header() {
   return (
     <header className={styles.header}>
       <div className={`container ${styles.headerContainer}`}>
-        <Link className={styles.logoWrapper} to="/">
-          <ReactLogo className={styles.reactLogo} />
-          <h2 className={styles.logoText}>Redux-Router</h2>
+        <Link className={styles.logoWrapper} to="/" aria-label="Quotes">
+          <img
+            className={styles.reactLogo}
+            src={logo}
+            alt="Logo with the letter Q"
+          />
+          <h2 className={styles.logoText}>uotes</h2>
         </Link>
         <nav className={styles.navbar}>
           <NavLink className={styles.navItem} to="/">
