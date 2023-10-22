@@ -1,0 +1,1154 @@
+[
+  {
+    "id": 1,
+    "quote": "The only way to do great work is to love what you do.",
+    "category": ["Motivation", "Work"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 2,
+    "quote": "In three words I can sum up everything I've learned about life: it goes on.",
+    "category": ["Life"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 3,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 4,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 5,
+    "quote": "The journey of a thousand miles begins with one step.",
+    "category": ["Motivation", "Journey"],
+    "author": "Lao Tzu"
+  },
+  {
+    "id": 6,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 7,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 8,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 9,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 10,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 11,
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "category": ["Life", "Simplicity"],
+    "author": "Confucius"
+  },
+  {
+    "id": 12,
+    "quote": "Believe you can and you're halfway there.",
+    "category": ["Belief", "Success"],
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "id": 13,
+    "quote": "The only true wisdom is in knowing you know nothing.",
+    "category": ["Wisdom", "Knowledge"],
+    "author": "Socrates"
+  },
+  {
+    "id": 14,
+    "quote": "Change your thoughts and you change your world.",
+    "category": ["Change", "Mindset"],
+    "author": "Norman Vincent Peale"
+  },
+  {
+    "id": 15,
+    "quote": "Don't count the days, make the days count.",
+    "category": ["Time", "Inspiration"],
+    "author": "Muhammad Ali"
+  },
+  {
+    "id": 16,
+    "quote": "Success usually comes to those who are too busy to be looking for it.",
+    "category": ["Success", "Productivity"],
+    "author": "Henry David Thoreau"
+  },
+  {
+    "id": 17,
+    "quote": "The best revenge is massive success.",
+    "category": ["Success", "Revenge"],
+    "author": "Frank Sinatra"
+  },
+  {
+    "id": 18,
+    "quote": "If you want to achieve greatness stop asking for permission.",
+    "category": ["Greatness", "Permission"],
+    "author": "Anonymous"
+  },
+  {
+    "id": 19,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "category": ["Dreams", "Future"],
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "id": 20,
+    "quote": "You miss 100% of the shots you don't take.",
+    "category": ["Opportunity", "Risk"],
+    "author": "Wayne Gretzky"
+  },
+  {
+    "id": 21,
+    "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "category": ["Individuality", "Self"],
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "id": 22,
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "category": ["Progress", "Persistence"],
+    "author": "Confucius"
+  },
+  {
+    "id": 23,
+    "quote": "The only thing necessary for the triumph of evil is for good men to do nothing.",
+    "category": ["Good", "Evil"],
+    "author": "Edmund Burke"
+  },
+  {
+    "id": 24,
+    "quote": "Don't watch the clock; do what it does. Keep going.",
+    "category": ["Persistence", "Time"],
+    "author": "Sam Levenson"
+  },
+  {
+    "id": 25,
+    "quote": "I find that the harder I work, the more luck I seem to have.",
+    "category": ["Luck", "Hard Work"],
+    "author": "Thomas Jefferson"
+  },
+  {
+    "id": 26,
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "category": ["Success", "Enthusiasm"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 27,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 28,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 29,
+    "quote": "Your time is limited, don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 30,
+    "quote": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+    "category": ["Mindfulness", "Present"],
+    "author": "Buddha"
+  },
+  {
+    "id": 31,
+    "quote": "The only place where success comes before work is in the dictionary.",
+    "category": ["Success", "Work"],
+    "author": "Vidal Sassoon"
+  },
+  {
+    "id": 32,
+    "quote": "The secret of getting ahead is getting started.",
+    "category": ["Success", "Action"],
+    "author": "Mark Twain"
+  },
+  {
+    "id": 33,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 34,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 35,
+    "quote": "You must be the change you wish to see in the world.",
+    "category": ["Change", "World"],
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": 36,
+    "quote": "The harder I work, the luckier I get.",
+    "category": ["Luck", "Hard Work"],
+    "author": "Gary Player"
+  },
+  {
+    "id": 37,
+    "quote": "If you don't stand for something, you will fall for anything.",
+    "category": ["Values", "Stand"],
+    "author": "Malcolm X"
+  },
+  {
+    "id": 38,
+    "quote": "A journey of a thousand miles begins with a single step.",
+    "category": ["Journey", "Action"],
+    "author": "Lao Tzu"
+  },
+  {
+    "id": 39,
+    "quote": "The only way to do great work is to love what you do.",
+    "category": ["Work", "Greatness"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 40,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 41,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 42,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 43,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 44,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 45,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 46,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "category": ["Belief", "Possibility"],
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 47,
+    "quote": "Success is not in what you have, but who you are.",
+    "category": ["Success", "Identity"],
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 48,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 49,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 50,
+    "quote": "The best way to predict your future is to create it.",
+    "category": ["Future", "Prediction"],
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 51,
+    "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    "category": ["Dreams", "Belief"],
+    "author": "Joel Brown"
+  },
+  {
+    "id": 52,
+    "quote": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "category": ["Dreams", "Fear"],
+    "author": "Roy T. Bennett"
+  },
+  {
+    "id": 53,
+    "quote": "Success is not just about making money. It's about making a difference.",
+    "category": ["Success", "Making a Difference"],
+    "author": "Unknown"
+  },
+  {
+    "id": 54,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 55,
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "category": ["Change", "Starting"],
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 56,
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "category": ["Life", "Change"],
+    "author": "Jim Rohn"
+  },
+  {
+    "id": 57,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 58,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 59,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "category": ["Action", "Opportunity"],
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 60,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 61,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 62,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 63,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 64,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 65,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 66,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 67,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "category": ["Belief", "Possibility"],
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 68,
+    "quote": "Success is not in what you have, but who you are.",
+    "category": ["Success", "Identity"],
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 69,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 70,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 71,
+    "quote": "The best way to predict your future is to create it.",
+    "category": ["Future", "Prediction"],
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 72,
+    "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    "category": ["Dreams", "Belief"],
+    "author": "Joel Brown"
+  },
+  {
+    "id": 73,
+    "quote": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "category": ["Dreams", "Fear"],
+    "author": "Roy T. Bennett"
+  },
+  {
+    "id": 74,
+    "quote": "Success is not just about making money. It's about making a difference.",
+    "category": ["Success", "Making a Difference"],
+    "author": "Unknown"
+  },
+  {
+    "id": 75,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 76,
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "category": ["Change", "Starting"],
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 77,
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "category": ["Life", "Change"],
+    "author": "Jim Rohn"
+  },
+  {
+    "id": 78,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 79,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 80,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "category": ["Action", "Opportunity"],
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 81,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 82,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 83,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 84,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 85,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 86,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 87,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 88,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "category": ["Belief", "Possibility"],
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 89,
+    "quote": "Success is not in what you have, but who you are.",
+    "category": ["Success", "Identity"],
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 90,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 91,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 92,
+    "quote": "The best way to predict your future is to create it.",
+    "category": ["Future", "Prediction"],
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 93,
+    "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    "category": ["Dreams", "Belief"],
+    "author": "Joel Brown"
+  },
+  {
+    "id": 94,
+    "quote": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "category": ["Dreams", "Fear"],
+    "author": "Roy T. Bennett"
+  },
+  {
+    "id": 95,
+    "quote": "Success is not just about making money. It's about making a difference.",
+    "category": ["Success", "Making a Difference"],
+    "author": "Unknown"
+  },
+  {
+    "id": 96,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 97,
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "category": ["Change", "Starting"],
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 98,
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "category": ["Life", "Change"],
+    "author": "Jim Rohn"
+  },
+  {
+    "id": 99,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 100,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 101,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "category": ["Action", "Opportunity"],
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 102,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 103,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 104,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 105,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 106,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 107,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 108,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 109,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "category": ["Belief", "Possibility"],
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 110,
+    "quote": "Success is not in what you have, but who you are.",
+    "category": ["Success", "Identity"],
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 111,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 112,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 113,
+    "quote": "The best way to predict your future is to create it.",
+    "category": ["Future", "Prediction"],
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 114,
+    "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    "category": ["Dreams", "Belief"],
+    "author": "Joel Brown"
+  },
+  {
+    "id": 115,
+    "quote": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "category": ["Dreams", "Fear"],
+    "author": "Roy T. Bennett"
+  },
+  {
+    "id": 116,
+    "quote": "Success is not just about making money. It's about making a difference.",
+    "category": ["Success", "Making a Difference"],
+    "author": "Unknown"
+  },
+  {
+    "id": 117,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 118,
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "category": ["Change", "Starting"],
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 119,
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "category": ["Life", "Change"],
+    "author": "Jim Rohn"
+  },
+  {
+    "id": 120,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 121,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 122,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "category": ["Action", "Opportunity"],
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 123,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 124,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 125,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 126,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 127,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 128,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 129,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 130,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "category": ["Belief", "Possibility"],
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 131,
+    "quote": "Success is not in what you have, but who you are.",
+    "category": ["Success", "Identity"],
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 132,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 133,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 134,
+    "quote": "The best way to predict your future is to create it.",
+    "category": ["Future", "Prediction"],
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 135,
+    "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    "category": ["Dreams", "Belief"],
+    "author": "Joel Brown"
+  },
+  {
+    "id": 136,
+    "quote": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "category": ["Dreams", "Fear"],
+    "author": "Roy T. Bennett"
+  },
+  {
+    "id": 137,
+    "quote": "Success is not just about making money. It's about making a difference.",
+    "category": ["Success", "Making a Difference"],
+    "author": "Unknown"
+  },
+  {
+    "id": 138,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 139,
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "category": ["Change", "Starting"],
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 140,
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "category": ["Life", "Change"],
+    "author": "Jim Rohn"
+  },
+  {
+    "id": 141,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 142,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 143,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "category": ["Action", "Opportunity"],
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 144,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 145,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 146,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 147,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 148,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 149,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 150,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 151,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "category": ["Belief", "Possibility"],
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 152,
+    "quote": "Success is not in what you have, but who you are.",
+    "category": ["Success", "Identity"],
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 153,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 154,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 155,
+    "quote": "The best way to predict your future is to create it.",
+    "category": ["Future", "Prediction"],
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 156,
+    "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    "category": ["Dreams", "Belief"],
+    "author": "Joel Brown"
+  },
+  {
+    "id": 157,
+    "quote": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "category": ["Dreams", "Fear"],
+    "author": "Roy T. Bennett"
+  },
+  {
+    "id": 158,
+    "quote": "Success is not just about making money. It's about making a difference.",
+    "category": ["Success", "Making a Difference"],
+    "author": "Unknown"
+  },
+  {
+    "id": 159,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 160,
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "category": ["Change", "Starting"],
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 161,
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "category": ["Life", "Change"],
+    "author": "Jim Rohn"
+  },
+  {
+    "id": 162,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 163,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 164,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "category": ["Action", "Opportunity"],
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 165,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 166,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 167,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 168,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 169,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 170,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 171,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  },
+  {
+    "id": 172,
+    "quote": "The only way to achieve the impossible is to believe it is possible.",
+    "category": ["Belief", "Possibility"],
+    "author": "Charles Kingsleigh"
+  },
+  {
+    "id": 173,
+    "quote": "Success is not in what you have, but who you are.",
+    "category": ["Success", "Identity"],
+    "author": "Bo Bennett"
+  },
+  {
+    "id": 174,
+    "quote": "Your time is limited, so don't waste it living someone else's life.",
+    "category": ["Time", "Individuality"],
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 175,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 176,
+    "quote": "The best way to predict your future is to create it.",
+    "category": ["Future", "Prediction"],
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 177,
+    "quote": "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+    "category": ["Dreams", "Belief"],
+    "author": "Joel Brown"
+  },
+  {
+    "id": 178,
+    "quote": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+    "category": ["Dreams", "Fear"],
+    "author": "Roy T. Bennett"
+  },
+  {
+    "id": 179,
+    "quote": "Success is not just about making money. It's about making a difference.",
+    "category": ["Success", "Making a Difference"],
+    "author": "Unknown"
+  },
+  {
+    "id": 180,
+    "quote": "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "category": ["Goal", "Self-Doubt"],
+    "author": "Jordan Belfort"
+  },
+  {
+    "id": 181,
+    "quote": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+    "category": ["Change", "Starting"],
+    "author": "C.S. Lewis"
+  },
+  {
+    "id": 182,
+    "quote": "Your life does not get better by chance, it gets better by change.",
+    "category": ["Life", "Change"],
+    "author": "Jim Rohn"
+  },
+  {
+    "id": 183,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "category": ["Inspiration", "Doubt"],
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "id": 184,
+    "quote": "Life is what happens when you're busy making other plans.",
+    "category": ["Life", "Planning"],
+    "author": "John Lennon"
+  },
+  {
+    "id": 185,
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "category": ["Action", "Opportunity"],
+    "author": "Chinese Proverb"
+  },
+  {
+    "id": 186,
+    "quote": "The best way out is always through.",
+    "category": ["Challenges", "Perseverance"],
+    "author": "Robert Frost"
+  },
+  {
+    "id": 187,
+    "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "category": ["Success", "Courage"],
+    "author": "Winston Churchill"
+  },
+  {
+    "id": 188,
+    "quote": "Happiness is not something ready made. It comes from your own actions.",
+    "category": ["Happiness", "Action"],
+    "author": "Dalai Lama"
+  },
+  {
+    "id": 189,
+    "quote": "In the middle of every difficulty lies opportunity.",
+    "category": ["Opportunity", "Difficulty"],
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 190,
+    "quote": "Life is 10% what happens to us and 90% how we react to it.",
+    "category": ["Life", "Reaction"],
+    "author": "Charles R. Swindoll"
+  },
+  {
+    "id": 191,
+    "quote": "The best way to predict the future is to create it.",
+    "category": ["Future", "Creation"],
+    "author": "Peter Drucker"
+  },
+  {
+    "id": 192,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "category": ["Success", "Resilience"],
+    "author": "Nelson Mandela"
+  }
+]

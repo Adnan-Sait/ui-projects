@@ -1,0 +1,54 @@
+.header {
+  background-color: var(--app-color-marian-blue);
+  color: var(--app-color-white);
+  font-size: var(--app-sizes-size-16);
+  padding: var(--app-sizes-size-10) var(--app-sizes-size-5);
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navItem {
+  color: var(--app-color-white);
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+
+  &:hover {
+    border-color: var(--app-color-dodger-blue);
+  }
+
+  /**
+   * TODO: Why is global required here?
+   * https://stackoverflow.com/a/70451303/9454632
+   */
+  &:global.active {
+    border-color: var(--app-color-white);
+  }
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  color: var(--app-color-white);
+}
+
+.reactLogo {
+  width: 40px;
+  fill: var(--app-color-white);
+}
+
+.logoText {
+  white-space: nowrap;
+  font-size: var(--app-sizes-size-24);
+}

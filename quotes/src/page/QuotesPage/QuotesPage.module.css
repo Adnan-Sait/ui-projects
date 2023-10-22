@@ -1,0 +1,9 @@
+.quotesPageContainer {
+  margin-top: 15px;
+}
+
+.quotesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
