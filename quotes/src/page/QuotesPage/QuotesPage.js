@@ -4,6 +4,7 @@ import { quotesSelector } from "../../slices/quotesSlice";
 import styles from "./QuotesPage.module.css";
 import classNames from "classnames";
 import QuotesCard from "../../components/QuotesCard/QuotesCard";
+import QuotesFilter from "../../components/QuotesFilter/QuotesFilter";
 
 function QuotesPage() {
   /**
@@ -14,6 +15,9 @@ function QuotesPage() {
   return (
     <div className={classNames("container", styles.quotesPageContainer)}>
       <div className={styles.quotesGrid}>
+        <div className={styles.filterColumn}>
+          <QuotesFilter />
+        </div>
         {quotes.map((quoteItem) => {
           return <QuotesCard key={quoteItem.id} quote={quoteItem} />;
         })}
