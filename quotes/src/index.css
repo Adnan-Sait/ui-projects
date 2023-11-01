@@ -1,11 +1,17 @@
 :root {
-  --app-color-marian-blue: hsla(214, 97%, 27%, 1);
+  --app-color-marian-blue: #023c88;
+  --app-color-marian-blue-shade-1: #02367a;
+  --app-color-marian-blue-shade-2: #02306d;
+  --app-color-marian-blue-tint-1: #1b5094;
   --app-color-marian-blue-tint-7: hsl(213, 36%, 78%);
   --app-color-dodger-blue: hsla(205, 94%, 52%, 1);
   --app-color-white: hsla(0, 0%, 100%, 1);
   --app-color-text-black: hsla(0, 0%, 0%, 0.87);
 
-  --app-color-neutral-5: hsl(0, 0%, 32%);
+  --app-color-neutral-1: hsl(0, 0%, 90%);
+  --app-color-neutral-2: hsl(0, 0%, 80%);
+  --app-color-neutral-5: hsl(0, 0%, 50%);
+  --app-color-neutral-7: hsl(0, 0%, 30%);
 
   --app-shadow-default-dimensions: 0 0 0 0.5rem;
   --app-shadow-spread-dimensions: 0 0 0.2rem 0.5rem;
@@ -48,11 +54,40 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Sarabun", "Roboto", sans-serif;
+  font-size: var(--app-sizes-size-14);
   color: var(--app-color-text-black);
+}
+
+button {
+  color: var(--app-color-text-black);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+
+.primary-btn {
+  background-color: var(--app-color-marian-blue-tint-1);
+  color: var(--app-color-white);
+
+  &:hover {
+    background-color: var(--app-color-marian-blue);
+  }
+}
+
+.secondary-btn {
+  background-color: var(--app-color-white);
+  color: var(--app-color-text-black);
+
+  &:hover {
+    background-color: var(--app-color-neutral-5);
+    color: var(--app-color-white);
+  }
 }
