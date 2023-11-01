@@ -13,6 +13,13 @@
  * @property    {Object.<string, number[]>}     categories
  */
 
+/**
+ * @typedef   {Object}    FilterData
+ * @property  {String}    name
+ * @property  {Number}    count
+ * @property  {Boolean}   isSelected
+ */
+
 const { createSlice } = require("@reduxjs/toolkit");
 
 /**

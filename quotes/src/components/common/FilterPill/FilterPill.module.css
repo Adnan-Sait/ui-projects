@@ -1,0 +1,75 @@
+.filterPillBtn {
+  display: flex;
+  align-items: center;
+  font-size: var(--app-sizes-size-14);
+  padding: 5px 15px;
+  gap: 5px;
+  border: 1px solid var(--app-color-neutral-2);
+  border-radius: 50px;
+  background-color: var(--app-color-neutral-1);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: var(--app-color-neutral-2);
+  }
+}
+
+.dropdownWrapper {
+  position: relative;
+}
+
+.filterDropdown {
+  position: absolute;
+  background-color: var(--app-color-neutral-1);
+  width: 300px;
+  padding: 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  top: 5px;
+  z-index: 999;
+}
+
+.filterHeader {
+  padding: 0 15px;
+}
+
+.filterBody {
+  height: 250px;
+  overflow: auto;
+  margin: 10px 0;
+}
+
+.filterItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--app-sizes-size-14);
+  gap: 10px;
+}
+
+.filterItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0 15px;
+
+  & span {
+    pointer-events: none;
+  }
+}
+.filterItemCount {
+  margin-left: auto;
+}
+
+.filterFooter {
+  display: flex;
+  justify-content: space-evenly;
+
+  & button {
+    flex: 0 1 45%;
+  }
+}
+
+.filterSaveBtn {
+  order: 1;
+}

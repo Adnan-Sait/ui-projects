@@ -1,0 +1,4 @@
+.filterSection {
+  display: flex;
+  gap: var(--app-sizes-size-20);
+}
