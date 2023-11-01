@@ -10,23 +10,83 @@ import useDropdownClose from "../../../hook/useDropdownClose";
  *
  * @param {Object} param0 Prop
  * @param {String} param0.title Title for the filter
- * @param {import("../../../slices/quotesSlice").FilterData[]} param0.filterItems Filter Items to be shown in dropdown
+ * @param {Object.<string, number[]>} param0.categoryData Filter Items to be shown in dropdown
  */
-function FilterPill({ title, filterItems }) {
+function FilterPill({ title, categoryData }) {
   const dropdownRef = useRef();
 
+  /**
+   * Controls the dropdown display
+   * @type {[Boolean[], React.Dispatch<Boolean[]>]}
+   */
   const [openDropdown, setOpenDropdown] = useState(false);
+  /**
+   * Filters applied.
+   * @type {[String[], React.Dispatch<String[]>]}
+   */
   const [selectedFilters, setSelectedFilters] = useState([]);
+
+  /**
+   * The filters shown in the dropdown.
+   * @type {[import("../../../slices/quotesSlice").FilterData[], React.Dispatch<import("../../../slices/quotesSlice").FilterData[]>]}
+   */
+  const [filterData, setFilterData] = useState([]);
+
   const closeDropdownCallback = useCallback(closeDropdown, []);
 
   useDropdownClose(dropdownRef, closeDropdownCallback);
 
   useEffect(() => {
-    const currentSelectedFilters = filterItems.filter(
-      (item) => item.isSelected
-    );
-    setSelectedFilters(currentSelectedFilters);
-  }, [filterItems]);
+    if (!openDropdown) setSelectedFilters([]);
+  }, [openDropdown]);
+
+  /**
+   * Initializing the filter data.
+   */
+  useEffect(() => {
+    const tempState = [];
+    Object.keys(categoryData).forEach((authorName) => {
+      const filter = {};
+      filter.name = authorName;
+      filter.count = categoryData[authorName]?.length ?? 0;
+      tempState.push(filter);
+    });
+    sortFilterData(tempState);
+
+    setFilterData(tempState);
+  }, [categoryData]);
+
+  /**
+   * Setting the selected flag based on the selected filters.
+   */
+  useEffect(() => {
+    setFilterData((state) => {
+      const tempState = [...state];
+      tempState.forEach((filter) => {
+        const isSelected = selectedFilters.some((item) => item === filter.name);
+        filter.isSelected = isSelected;
+      });
+
+      return tempState;
+    });
+  }, [selectedFilters]);
+
+  const selectedFiltersCount = selectedFilters.length;
+
+  /**
+   * Sorts the data.
+   * Prioritizes selected filters. Then sorts the filters by the count.
+   *
+   * @param {import("../../slices/quotesSlice").FilterData[]} filterData
+   */
+  function sortFilterData(filterData) {
+    filterData.sort((a, b) => {
+      if (b.isSelected) {
+        return 1;
+      }
+      return b.count - a.count;
+    });
+  }
 
   /**
    * Clears all the filters.
@@ -34,7 +94,7 @@ function FilterPill({ title, filterItems }) {
    * @param {Event} event
    */
   function clearAllFilters(event) {
-    closeDropdown();
+    setSelectedFilters([]);
   }
 
   /**
@@ -46,27 +106,32 @@ function FilterPill({ title, filterItems }) {
     closeDropdown();
   }
 
+  /**
+   * Closes the dropdown
+   */
   function closeDropdown() {
     setOpenDropdown(false);
   }
 
   /**
+   * Handles filter checkbox change events.
+   * If the filter is selected, it is added to selectedFilters state.
+   * If the filter is unselected, it is removed from selectedFilters state.
    *
    * @param {Event} event Event
-   * @param {import("../../../slices/quotesSlice").FilterData} filter Selected filter
    * @returns
    */
-  function checkboxChangeHandler(event, filter) {
+  function checkboxChangeHandler(event) {
     switch (event.currentTarget.checked) {
       case true: {
         setSelectedFilters((state) => {
-          return [...state, filter];
+          return [...state, event.currentTarget.value];
         });
         break;
       }
       case false: {
         setSelectedFilters((state) => {
-          return state.filter((item) => item.name !== filter.name);
+          return state.filter((item) => item !== event.currentTarget.value);
         });
         break;
       }
@@ -81,7 +146,7 @@ function FilterPill({ title, filterItems }) {
    * @returns JSX
    */
   function renderFilterItems() {
-    return filterItems?.map((filter) => (
+    return filterData?.map((filter) => (
       <label
         htmlFor={filter.name}
         key={filter.name}
@@ -92,8 +157,8 @@ function FilterPill({ title, filterItems }) {
           name="Author"
           id={filter.name}
           value={filter.name}
-          defaultChecked={filter.isSelected ?? false}
-          onChange={(event) => checkboxChangeHandler(event, filter)}
+          checked={filter.isSelected}
+          onChange={(event) => checkboxChangeHandler(event)}
         />
         <span>{filter.name}</span>
         <span className={styles.filterItemCount}>({filter.count})</span>
@@ -114,7 +179,9 @@ function FilterPill({ title, filterItems }) {
       <div className={styles.dropdownWrapper}>
         {openDropdown && (
           <section className={styles.filterDropdown}>
-            <header className={styles.filterHeader}>1 filter selected</header>
+            <header className={styles.filterHeader}>
+              {selectedFiltersCount} filter(s) selected
+            </header>
 
             <main className={styles.filterBody}>
               <div className={styles.filterItemsWrapper}>
@@ -127,7 +194,7 @@ function FilterPill({ title, filterItems }) {
                 className={classNames("primary-btn", styles.filterSaveBtn)}
                 onClick={saveFilters}
               >
-                Save
+                Apply
               </button>
               <button className="secondary-btn" onClick={clearAllFilters}>
                 Clear
