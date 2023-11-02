@@ -11,8 +11,10 @@ import useDropdownClose from "../../../hook/useDropdownClose";
  * @param {Object} param0 Prop
  * @param {String} param0.title Title for the filter
  * @param {Object.<string, number[]>} param0.categoryData Filter Items to be shown in dropdown
+ * @param {Function} param0.saveFilters Function to save the filter values
+ * @param {String} param0.filterId Filter Identifier
  */
-function FilterPill({ title, categoryData }) {
+function FilterPill({ title, categoryData, saveFilters, filterId }) {
   const dropdownRef = useRef();
 
   /**
@@ -102,7 +104,8 @@ function FilterPill({ title, categoryData }) {
    *
    * @param {Event} event
    */
-  function saveFilters(event) {
+  function handleFilterApply(event) {
+    saveFilters(filterId, selectedFilters);
     closeDropdown();
   }
 
@@ -122,16 +125,17 @@ function FilterPill({ title, categoryData }) {
    * @returns
    */
   function checkboxChangeHandler(event) {
+    const value = event.currentTarget.value;
     switch (event.currentTarget.checked) {
       case true: {
         setSelectedFilters((state) => {
-          return [...state, event.currentTarget.value];
+          return [...state, value];
         });
         break;
       }
       case false: {
         setSelectedFilters((state) => {
-          return state.filter((item) => item !== event.currentTarget.value);
+          return state.filter((item) => item !== value);
         });
         break;
       }
@@ -192,7 +196,7 @@ function FilterPill({ title, categoryData }) {
             <footer className={styles.filterFooter}>
               <button
                 className={classNames("primary-btn", styles.filterSaveBtn)}
-                onClick={saveFilters}
+                onClick={handleFilterApply}
               >
                 Apply
               </button>
