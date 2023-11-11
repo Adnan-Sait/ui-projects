@@ -1,9 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
 import React from "react";
 import { Provider } from "react-redux";
-import quotesSlice from "./slices/quotesSlice";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import routes from "./routes";
+import store from "./store/store";
 
 /**
  * Main component
@@ -12,9 +11,6 @@ import routes from "./routes";
  */
 function Main() {
   const router = createBrowserRouter(routes);
-  const store = configureStore({
-    reducer: { quotes: quotesSlice },
-  });
 
   return (
     <Provider store={store}>

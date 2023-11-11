@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { quotesSelector } from "../../slices/quotesSlice";
+import { quotesSelector } from "../../store/slices/quotesSlice";
 import styles from "./QuotesPage.module.css";
 import classNames from "classnames";
 import QuotesCard from "../../components/QuotesCard/QuotesCard";
@@ -8,7 +8,7 @@ import QuotesFilter from "../../components/QuotesFilter/QuotesFilter";
 
 function QuotesPage() {
   /**
-   * @type {{quotes: import("../../slices/quotesSlice").Quotes[]}}
+   * @type {{quotes: import("../../store/slices/quotesSlice").Quotes[]}}
    */
   const { quotes } = useSelector(quotesSelector);
 

@@ -1,3 +1,5 @@
+import { createSlice } from "@reduxjs/toolkit";
+
 /**
  * @typedef     {Object}    Quotes
  * @property    {number}    id
@@ -19,8 +21,6 @@
  * @property  {Number}    count
  * @property  {Boolean}   isSelected
  */
-
-const { createSlice } = require("@reduxjs/toolkit");
 
 /**
  * @type {QuotesSlice}

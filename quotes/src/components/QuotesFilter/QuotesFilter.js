@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./QuotesFilter.module.css";
 import FilterPill from "../common/FilterPill/FilterPill";
 import { useSelector } from "react-redux";
-import { quotesSelector } from "../../slices/quotesSlice";
 import { useSearchParams } from "react-router-dom";
 import {
   FILTER_GROUP_SEPARATOR,
   FILTER_KEYS,
   FILTER_SEPARATOR,
 } from "../../utils/label";
+import { quotesSelector } from "../../store/slices/quotesSlice";
 
 function QuotesFilter() {
   const [searchParams, setSearchParams] = useSearchParams();

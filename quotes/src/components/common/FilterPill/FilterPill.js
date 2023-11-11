@@ -30,7 +30,7 @@ function FilterPill({ title, categoryData, saveFilters, filterId }) {
 
   /**
    * The filters shown in the dropdown.
-   * @type {[import("../../../slices/quotesSlice").FilterData[], React.Dispatch<import("../../../slices/quotesSlice").FilterData[]>]}
+   * @type {[import("../../../store/slices/quotesSlice").FilterData[], React.Dispatch<import("../../../store/slices/quotesSlice").FilterData[]>]}
    */
   const [filterData, setFilterData] = useState([]);
 
