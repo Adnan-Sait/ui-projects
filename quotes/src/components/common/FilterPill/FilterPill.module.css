@@ -2,15 +2,45 @@
   display: flex;
   align-items: center;
   font-size: var(--app-sizes-size-14);
-  padding: 5px 15px;
-  gap: 5px;
+  padding: 5px 10px;
+  padding-left: 15px;
+  gap: 7px;
   border: 1px solid var(--app-color-neutral-2);
   border-radius: 50px;
   background-color: var(--app-color-neutral-1);
+  min-height: 35px;
   transition: all 0.3s ease-in-out;
+
+  .filterCount {
+    display: none;
+  }
 
   &:hover {
     background-color: var(--app-color-neutral-2);
+  }
+}
+
+.activeFilter {
+  .filterPillBtn {
+    background-color: var(--app-color-marian-blue);
+    color: var(--app-color-white);
+  }
+
+  .filterCount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--app-sizes-size-12);
+    color: var(--app-color-text-black);
+    background-color: var(--app-color-white);
+    border: 2px solid var(--app-color-neutral-1);
+    border-radius: 50%;
+    width: 25px;
+    aspect-ratio: 1;
+  }
+
+  .dropdownIcon {
+    display: none;
   }
 }
 

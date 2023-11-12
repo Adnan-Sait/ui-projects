@@ -13,8 +13,15 @@ import useDropdownClose from "../../../hook/useDropdownClose";
  * @param {Object.<string, number[]>} param0.categoryData Filter Items to be shown in dropdown
  * @param {Function} param0.saveFilters Function to save the filter values
  * @param {String} param0.filterId Filter Identifier
+ * @param {String[]} param0.existingSelectedFilters Existing Selected filters
  */
-function FilterPill({ title, categoryData, saveFilters, filterId }) {
+function FilterPill({
+  title,
+  categoryData,
+  saveFilters,
+  filterId,
+  existingSelectedFilters,
+}) {
   const dropdownRef = useRef();
 
   /**
@@ -34,13 +41,13 @@ function FilterPill({ title, categoryData, saveFilters, filterId }) {
    */
   const [filterData, setFilterData] = useState([]);
 
+  /**
+   * @type {Boolean}
+   */
+  const filterCount = existingSelectedFilters.length;
+
   const closeDropdownCallback = useCallback(closeDropdown, []);
-
   useDropdownClose(dropdownRef, closeDropdownCallback);
-
-  useEffect(() => {
-    if (!openDropdown) setSelectedFilters([]);
-  }, [openDropdown]);
 
   /**
    * Initializing the filter data.
@@ -48,18 +55,31 @@ function FilterPill({ title, categoryData, saveFilters, filterId }) {
   useEffect(() => {
     const tempState = [];
     Object.keys(categoryData).forEach((authorName) => {
+      /**
+       * @type {import("../../../store/slices/quotesSlice").FilterData}
+       */
       const filter = {};
       filter.name = authorName;
       filter.count = categoryData[authorName]?.length ?? 0;
+      filter.isSelected = existingSelectedFilters.some(
+        (item) => item === filter.name
+      );
       tempState.push(filter);
     });
     sortFilterData(tempState);
 
     setFilterData(tempState);
-  }, [categoryData]);
+  }, [categoryData, existingSelectedFilters]);
 
   /**
-   * Setting the selected flag based on the selected filters.
+   * Clear selected filers when dropdown is closed.
+   */
+  useEffect(() => {
+    if (!openDropdown) setSelectedFilters(existingSelectedFilters);
+  }, [openDropdown, existingSelectedFilters]);
+
+  /**
+   * Setting the selected flag on individual items based on the selected filters.
    */
   useEffect(() => {
     setFilterData((state) => {
@@ -83,10 +103,10 @@ function FilterPill({ title, categoryData, saveFilters, filterId }) {
    */
   function sortFilterData(filterData) {
     filterData.sort((a, b) => {
-      if (b.isSelected) {
-        return 1;
+      if (a.isSelected === b.isSelected) {
+        return b.count - a.count;
       }
-      return b.count - a.count;
+      return a.isSelected ? -1 : 1;
     });
   }
 
@@ -171,13 +191,17 @@ function FilterPill({ title, categoryData, saveFilters, filterId }) {
   }
 
   return (
-    <div ref={dropdownRef}>
+    <div
+      className={classNames({ [styles.activeFilter]: filterCount })}
+      ref={dropdownRef}
+    >
       <button
         className={styles.filterPillBtn}
         onClick={() => setOpenDropdown((state) => !state)}
       >
         <span>{title}</span>
-        <FontAwesomeIcon icon={faCaretDown} />
+        <span className={styles.filterCount}>{filterCount}</span>
+        <FontAwesomeIcon className={styles.dropdownIcon} icon={faCaretDown} />
       </button>
 
       <div className={styles.dropdownWrapper}>

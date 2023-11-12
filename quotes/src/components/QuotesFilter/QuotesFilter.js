@@ -10,13 +10,18 @@ import {
   FILTER_SEPARATOR,
 } from "../../utils/label";
 import { quotesSelector } from "../../store/slices/quotesSlice";
-import { formatSaveFilters } from "../../store/slices/filtersSlice";
+import {
+  formatSaveFilters,
+  selectedFiltersSelector,
+} from "../../store/slices/filtersSlice";
 
 function QuotesFilter() {
   const dispatch = useDispatch();
   const [searchParams, setSearchParams] = useSearchParams();
 
   const { authors, categories } = useSelector(quotesSelector);
+  const { author: authorSelectedFilters, category: categorySelectedFilters } =
+    useSelector(selectedFiltersSelector);
 
   useEffect(() => {
     const filterQueryParam = searchParams.get(FILTER_KEYS.filter);
@@ -79,12 +84,14 @@ function QuotesFilter() {
           title={"Author"}
           categoryData={authors}
           saveFilters={saveFilters}
+          existingSelectedFilters={authorSelectedFilters}
         />
         <FilterPill
           filterId={FILTER_KEYS.category}
           title={"Category"}
           categoryData={categories}
           saveFilters={saveFilters}
+          existingSelectedFilters={categorySelectedFilters}
         />
       </section>
       <section className="activeFiltersSection"></section>
