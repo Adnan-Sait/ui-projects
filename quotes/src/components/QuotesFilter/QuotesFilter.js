@@ -14,12 +14,19 @@ import {
   formatSaveFilters,
   selectedFiltersSelector,
 } from "../../store/slices/filtersSlice";
+import QuotesActiveFilter from "./QuotesActiveFilter/QuotesActiveFilter";
 
 function QuotesFilter() {
   const dispatch = useDispatch();
   const [searchParams, setSearchParams] = useSearchParams();
 
+  /**
+   * @type {{authors: Object.<string, number[]>, categories: Object.<string, number[]>}}
+   */
   const { authors, categories } = useSelector(quotesSelector);
+  /**
+   * @type {{author: string[], category: string[]}}
+   */
   const { author: authorSelectedFilters, category: categorySelectedFilters } =
     useSelector(selectedFiltersSelector);
 
@@ -77,7 +84,7 @@ function QuotesFilter() {
   }
 
   return (
-    <div>
+    <div className={styles.filterWrapper}>
       <section className={styles.filterSection}>
         <FilterPill
           filterId={FILTER_KEYS.author}
@@ -94,7 +101,7 @@ function QuotesFilter() {
           existingSelectedFilters={categorySelectedFilters}
         />
       </section>
-      <section className="activeFiltersSection"></section>
+      <QuotesActiveFilter />
     </div>
   );
 }
