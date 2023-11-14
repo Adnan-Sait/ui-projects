@@ -91,3 +91,13 @@ button {
     color: var(--app-color-white);
   }
 }
+
+.link-btn {
+  border-radius: 0;
+  background-color: transparent;
+  color: var(--app-color-marian-blue);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
