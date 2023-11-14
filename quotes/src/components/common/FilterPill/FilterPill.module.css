@@ -23,6 +23,7 @@
 .activeFilter {
   .filterPillBtn {
     background-color: var(--app-color-marian-blue);
+    border-color: transparent;
     color: var(--app-color-white);
   }
 
