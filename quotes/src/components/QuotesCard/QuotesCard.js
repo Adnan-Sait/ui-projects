@@ -4,7 +4,7 @@ import styles from "./QuotesCard.module.css";
 /**
  *
  * @param {Object} param0
- * @param {import("../../slices/quotesSlice").Quotes} param0.quote
+ * @param {import("../../store/slices/quotesSlice").Quotes} param0.quote
  */
 function QuotesCard({ quote }) {
   return (

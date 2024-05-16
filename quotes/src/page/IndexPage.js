@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Outlet } from "react-router-dom";
-import { saveQuotes } from "../slices/quotesSlice";
+import { saveQuotes } from "../store/slices/quotesSlice";
 import quotesData from "../assets/quotes.json";
 import Header from "../components/Header/Header";
 

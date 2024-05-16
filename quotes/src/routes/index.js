@@ -7,7 +7,6 @@ import QuotesPage from "../page/QuotesPage/QuotesPage";
  */
 const routes = [
   {
-    path: "*",
     element: <IndexPage />,
     children: [
       {

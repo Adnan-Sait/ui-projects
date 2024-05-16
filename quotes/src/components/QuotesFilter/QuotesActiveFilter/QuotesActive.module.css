@@ -1,0 +1,27 @@
+.activeFilterWrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--app-sizes-size-10);
+  margin-top: 15px;
+}
+
+.activeFilterBtn {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  padding-left: 15px;
+  gap: 2px;
+}
+
+.filterCategory {
+}
+
+.filterValue {
+}
+
+.closeIcon {
+  width: 20px;
+  margin-left: 5px;
+  stroke: var(--app-color-marian-blue);
+}

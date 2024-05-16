@@ -1,0 +1,8 @@
+.filterWrapper {
+  margin-bottom: 10px;
+}
+
+.filterSection {
+  display: flex;
+  gap: var(--app-sizes-size-10);
+}
