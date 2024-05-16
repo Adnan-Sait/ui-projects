@@ -37,15 +37,18 @@ export const quotesInitialState = {
  * @param {QuotesSlice} state
  */
 function updateAuthorsState(state) {
-  state.authors = state.quotes.reduce((acc, value) => {
-    if (acc[value.author]) {
-      acc[value.author].push(value.id);
-    } else {
-      acc[value.author] = [value.id];
-    }
+  state.authors = state.quotes.reduce(
+    (/**@type {Object.<string, number[]>}*/ acc, value) => {
+      if (acc[value.author]) {
+        acc[value.author].push(value.id);
+      } else {
+        acc[value.author] = [value.id];
+      }
 
-    return acc;
-  }, {});
+      return acc;
+    },
+    {}
+  );
 }
 
 /**
@@ -54,17 +57,20 @@ function updateAuthorsState(state) {
  * @param {QuotesSlice} state
  */
 function updateCategoriesState(state) {
-  state.categories = state.quotes.reduce((acc, value) => {
-    value.category.forEach((item) => {
-      if (acc[item]) {
-        acc[item].push(value.id);
-      } else {
-        acc[item] = [value.id];
-      }
-    });
+  state.categories = state.quotes.reduce(
+    (/**@type {Object.<string, number[]>}*/ acc, value) => {
+      value.category.forEach((item) => {
+        if (acc[item]) {
+          acc[item].push(value.id);
+        } else {
+          acc[item] = [value.id];
+        }
+      });
 
-    return acc;
-  }, {});
+      return acc;
+    },
+    {}
+  );
 }
 
 const quotesSlice = createSlice({
@@ -83,6 +89,6 @@ const quotesSlice = createSlice({
 
 export const { saveQuotes } = quotesSlice.actions;
 
-export const quotesSelector = (state) => state.quotes;
+export const quotesSelector = (/**@type {QuotesSlice}*/ state) => state.quotes;
 
 export default quotesSlice.reducer;
