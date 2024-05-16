@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Outlet } from "react-router-dom";
+
 import { saveQuotes } from "../store/slices/quotesSlice";
-import quotesData from "../assets/quotes.json";
 import Header from "../components/Header/Header";
+import quotesData from "../assets/quotes.json";
 
 /**
  * Entry Point of the Web Application.
@@ -13,7 +14,7 @@ function IndexPage() {
 
   useEffect(() => {
     dispatch(saveQuotes(quotesData));
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
